@@ -7,11 +7,11 @@ using namespace std ;
 
 class joseph{
 public :
-    joseph(int N , int M){ num = N ; m = M ; } ;
+    joseph(int n,int m){ num = n ; k = m ; } ;
     void simulate() ;
 private :
     int num ;
-    int m ;
+    int k ;
     bool n[1000] = {0} ;
 };
 
